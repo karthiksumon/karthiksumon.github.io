@@ -306,20 +306,3 @@ window.addEventListener("load", () => {
 
 console.log("%cWelcome to Karthik Sumon's Portfolio",
 "color:#00ff88;font-size:18px;font-weight:bold;");
-.nav-links.show{
-    display:flex;
-    position:absolute;
-    top:75px;
-    right:20px;
-    flex-direction:column;
-    background:#101010;
-    padding:20px;
-    border-radius:12px;
-    border:1px solid #00ff88;
-    width:220px;
-    box-shadow:0 15px 35px rgba(0,0,0,.4);
-}
-
-.nav-links a.active{
-    color:#00ff88;
-}

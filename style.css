@@ -189,6 +189,24 @@ header{
     width:100%;
 }
 
+.nav-links.show{
+    display:flex;
+    position:absolute;
+    top:75px;
+    right:20px;
+    flex-direction:column;
+    background:#101010;
+    padding:20px;
+    border-radius:12px;
+    border:1px solid var(--primary);
+    width:220px;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+.nav-links a.active{
+    color:var(--primary);
+}
+
 .menu-btn{
 
     display:none;
